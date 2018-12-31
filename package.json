@@ -1,0 +1,26 @@
+{
+  "name": "recorder",
+  "version": "0.0.1",
+  "description": "JavaScript Audio and Video Recorder",
+  "main": "recorder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themikefuller/recorder.git"
+  },
+  "keywords": [
+    "Recorder",
+    "Record",
+    "Audio",
+    "Video",
+    "JavaScript"
+  ],
+  "author": "Mike Fuller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themikefuller/recorder/issues"
+  },
+  "homepage": "https://github.com/themikefuller/recorder#readme"
+}
