@@ -38,9 +38,9 @@ function Recorder() {
     });
   };
 
-  recorder.getStream = ()=> {
+  recorder.getStream = (video=true, audio=true)=> {
     return new Promise((resolve,reject)=>{
-      navigator.mediaDevices.getUserMedia({"video":true,"audio":true}).then(stream=>{
+      navigator.mediaDevices.getUserMedia({"video":video,"audio":audio}).then(stream=>{
         resolve(stream);
       }).catch(err=>{
         reject({"code":400,"message":"Could not gain access to recording devices."});
